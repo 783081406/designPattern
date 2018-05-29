@@ -1,5 +1,5 @@
 /**
- * 根目录
+ * 设计模式
  *
  * @author ccj
  * @version 1.0
