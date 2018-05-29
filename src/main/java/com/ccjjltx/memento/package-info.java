@@ -9,6 +9,13 @@
  * 2)设计一个类.该类只能用来保存上述对象的状态(相当于Memento角色)
  * 3)需要的时候，Caretaker角色要求Originator返回一个Memento加以保存
  * 4)undo或rollback操作时，通过Caretaker保存的Memento恢复Originator对象的状态
+ * <p>
+ * Originator(原生者)
+ * 需要被保存状态以便恢复的那个对象
+ * Memento(备忘录)
+ * 该对象由Originator创建，主要用来保存Originator的内部状态
+ * Caretaker(管理者)
+ * 负责在适当的时间保存/恢复Originator对象的状态
  *
  * @author ccj
  * @version 1.0
